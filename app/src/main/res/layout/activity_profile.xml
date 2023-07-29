@@ -44,7 +44,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="40dp"
             android:orientation="horizontal">
             <TextView
@@ -57,7 +57,7 @@
                 android:textStyle="bold"
                 android:textColor="#211551"/>
             <TextView
-                android:id="@+id/hoTen"
+                android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
@@ -71,138 +71,57 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="40dp"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text="Mã sinh viên:"
+                android:text="SĐT:"
                 android:textSize="25dp"
                 android:fontFamily="serif"
                 android:textStyle="bold"
                 android:textColor="#211551"/>
             <TextView
-                android:id="@+id/msv"
+                android:id="@+id/phone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:layout_marginLeft="15dp"
-                android:text="000000000"
+                android:text="0123456789"
                 android:textSize="25dp"
                 android:fontFamily="serif"
                 android:textColor="#3a2885"
                 android:textStyle="bold|italic"/>
-        </LinearLayout> <!--layout msv-->
+        </LinearLayout> <!--layout sdt-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="40dp"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text="Khoa:"
+                android:text="Email:"
                 android:textSize="25dp"
                 android:fontFamily="serif"
                 android:textStyle="bold"
                 android:textColor="#211551"/>
             <TextView
-                android:id="@+id/khoa"
+                android:id="@+id/email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:layout_marginLeft="15dp"
-                android:text="CNTT"
+                android:text="abdc@gmail.com"
                 android:textSize="25dp"
                 android:fontFamily="serif"
                 android:textColor="#3a2885"
                 android:textStyle="bold|italic"/>
-        </LinearLayout> <!--layout khoa-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="40dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:text="Khóa học:"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:textStyle="bold"
-                android:textColor="#211551"/>
-            <TextView
-                android:id="@+id/khoaHoc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginLeft="15dp"
-                android:text="K71"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:textColor="#3a2885"
-                android:textStyle="bold|italic"/>
-        </LinearLayout> <!--layout khóa học-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="40dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:text="Ngày sinh:"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:textStyle="bold"
-                android:textColor="#211551"/>
-            <TextView
-                android:id="@+id/ngaySinh"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginLeft="15dp"
-                android:text="20/10/2003"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:textColor="#3a2885"
-                android:textStyle="bold|italic"/>
-        </LinearLayout> <!--layout ngày sinh-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="40dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:text="Quê quán:"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:textStyle="bold"
-                android:textColor="#211551"/>
-            <TextView
-                android:id="@+id/queQuan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginLeft="15dp"
-                android:text="Hà Nội"
-                android:textSize="25dp"
-                android:fontFamily="serif"
-                android:textColor="#3a2885"
-                android:textStyle="bold|italic"/>
-        </LinearLayout> <!--layout quê quán-->
+        </LinearLayout> <!--layout mail-->
 
     </LinearLayout> <!--layout thông tin-->
 
